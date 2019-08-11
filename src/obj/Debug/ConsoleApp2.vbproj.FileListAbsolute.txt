@@ -1,0 +1,11 @@
+C:\Users\karll\Desktop\resupdater\src\obj\Debug\ConsoleApp2.vbprojAssemblyReference.cache
+C:\Users\karll\Desktop\resupdater\src\obj\Debug\ConsoleApp2.Resources.resources
+C:\Users\karll\Desktop\resupdater\src\obj\Debug\ConsoleApp2.vbproj.GenerateResource.cache
+C:\Users\karll\Desktop\resupdater\src\obj\Debug\ConsoleApp2.vbproj.CoreCompileInputs.cache
+C:\Users\karll\Desktop\resupdater\ConsoleApp2.exe.config
+C:\Users\karll\Desktop\resupdater\src\obj\Debug\ConsoleApp2.exe
+C:\Users\karll\Desktop\resupdater\src\obj\Debug\ConsoleApp2.xml
+C:\Users\karll\Desktop\resupdater\src\obj\Debug\ConsoleApp2.pdb
+C:\Users\karll\Desktop\resupdater\ConsoleApp2.exe
+C:\Users\karll\Desktop\resupdater\ConsoleApp2.pdb
+C:\Users\karll\Desktop\resupdater\ConsoleApp2.xml

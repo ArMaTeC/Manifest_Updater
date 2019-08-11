@@ -1,0 +1,11 @@
+C:\Users\karll\Desktop\resupdater\src\obj\Debug\Manifest_Updater.vbprojAssemblyReference.cache
+C:\Users\karll\Desktop\resupdater\src\obj\Debug\Manifest_Updater.Resources.resources
+C:\Users\karll\Desktop\resupdater\src\obj\Debug\Manifest_Updater.vbproj.GenerateResource.cache
+C:\Users\karll\Desktop\resupdater\src\obj\Debug\Manifest_Updater.vbproj.CoreCompileInputs.cache
+C:\Users\karll\Desktop\resupdater\Manifest_Updater.exe.config
+C:\Users\karll\Desktop\resupdater\src\obj\Debug\Manifest_Updater.exe
+C:\Users\karll\Desktop\resupdater\src\obj\Debug\Manifest_Updater.xml
+C:\Users\karll\Desktop\resupdater\src\obj\Debug\Manifest_Updater.pdb
+C:\Users\karll\Desktop\resupdater\Manifest_Updater.exe
+C:\Users\karll\Desktop\resupdater\Manifest_Updater.pdb
+C:\Users\karll\Desktop\resupdater\Manifest_Updater.xml
