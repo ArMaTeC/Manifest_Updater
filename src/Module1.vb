@@ -17,7 +17,7 @@ Module Module1
                     'keep other lines
                     sb.AppendLine(line)
                 Else
-                    'remove all old fefined manifests
+                    'remove all old defined manifests
                     foundmanifestdefine = True
                 End If
             Next
