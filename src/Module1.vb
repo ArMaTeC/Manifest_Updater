@@ -59,22 +59,59 @@ Module Module1
     Function doMenu() As Char
         Console.Clear()
         Console.WriteLine("")
+        Console.ForegroundColor = ConsoleColor.Red
+
         Console.WriteLine("Main Menu - Enter 1,2,3,4,5 or 6")
 
-        Console.WriteLine("1. For Manifest Version 00000000-0000-0000-0000-000000000000 (no date)")
+        Console.ForegroundColor = ConsoleColor.White
+        Console.Write("1. For Manifest Version ")
+        Console.ForegroundColor = ConsoleColor.Red
+        Console.Write(" 00000000-0000-0000-0000-000000000000")
+        Console.ForegroundColor = ConsoleColor.White
+        Console.WriteLine(" (no date)")
+        Console.ForegroundColor = ConsoleColor.Yellow
         Console.WriteLine("   The natives.lua file natives_21e43a33.lua will be used for client-side Lua.")
-        Console.WriteLine("2. For Manifest Version 77731fab-63ca-442c-a67b-abc70f28dfa5 (2016-12) ")
+
+        Console.ForegroundColor = ConsoleColor.White
+        Console.Write("2. For Manifest Version ")
+        Console.ForegroundColor = ConsoleColor.Red
+        Console.Write("77731fab-63ca-442c-a67b-abc70f28dfa5")
+        Console.ForegroundColor = ConsoleColor.White
+        Console.WriteLine(" (2016-12)")
+        Console.ForegroundColor = ConsoleColor.Yellow
         Console.WriteLine("   No changes.This Is the minimum operating level for FXServer.")
-        Console.WriteLine("3. For Manifest Version f15e72ec-3972-4fe4-9c7d-afc5394ae207 (2017-04-08) ")
+
+        Console.ForegroundColor = ConsoleColor.White
+        Console.Write("3. For Manifest Version ")
+        Console.ForegroundColor = ConsoleColor.Red
+        Console.Write("f15e72ec-3972-4fe4-9c7d-afc5394ae207")
+        Console.ForegroundColor = ConsoleColor.White
+        Console.WriteLine(" (2017-04-08) ")
+        Console.ForegroundColor = ConsoleColor.Yellow
         Console.WriteLine("   The natives.lua file natives_0193d0af.lua will be used for client-side Lua. This represents the state of NativeDB in early April of 2017.")
-        Console.WriteLine("4. For Manifest Version 44febabe-d386-4d18-afbe-5e627f4af937 (2017-06-07) ")
+
+        Console.ForegroundColor = ConsoleColor.White
+        Console.Write("4. For Manifest Version ")
+        Console.ForegroundColor = ConsoleColor.Red
+        Console.Write("44febabe-d386-4d18-afbe-5e627f4af937")
+        Console.ForegroundColor = ConsoleColor.White
+        Console.WriteLine(" (2017-06-07) ")
+        Console.ForegroundColor = ConsoleColor.Yellow
         Console.WriteLine("   The natives.lua file natives_universal.lua will be used For client-side Lua. This Is a universal natives.lua file, which should be able to be switched to without having to change your scripts. It also represents a more recent (2017-06-05) snapshot of NativeDB.")
-        Console.WriteLine("5. For Manifest Version 05cfa83c-a124-4cfa-a768-c24a5811d8f9 (2017-06-04) ")
+
+        Console.ForegroundColor = ConsoleColor.White
+        Console.Write("5. For Manifest Version ")
+        Console.ForegroundColor = ConsoleColor.Red
+        Console.Write("05cfa83c-a124-4cfa-a768-c24a5811d8f9")
+        Console.ForegroundColor = ConsoleColor.White
+        Console.WriteLine(" (2017-06-04) ")
+        Console.ForegroundColor = ConsoleColor.Yellow
         Console.WriteLine("   Scripts will now be registered as a game network script. This Is required for networking entities.")
         Console.WriteLine("   CREATE_VEHICLE And similar functions behave differently When passing True, True as network object flags. See network objects for more information.")
 
-
+        Console.ForegroundColor = ConsoleColor.White
         Console.WriteLine("6. Exit" & vbNewLine)
+        Console.ForegroundColor = ConsoleColor.Red
         Console.WriteLine("Enter your choice: ")
         Dim s As ConsoleKeyInfo = Console.ReadKey
         Return s.KeyChar
